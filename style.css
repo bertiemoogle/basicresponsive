@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(27, 27, 185);
+  background-color: #faeed1;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  color: rgb(27, 27, 185);
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+.post {
+  padding: 20px;
+  border-radius: 30px;
+  width: 75%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(27, 27, 185);
+  padding: 10px;
+}
+
+a:visited {
+  color: rgb(27, 27, 185);
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: 600;
+  color: #9a031e;
+}
+
+.ljones {
+  border-radius: 90px;
+}
+
+article {
+  width: 60%;
+  margin: auto;
+}
+
+.top {
+  background-color: #faeed1;
+}
+
+.mid {
+  background-color: #ded0b6;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.midcontent {
+  width: 60%;
+  margin: auto;
+}
+
+aside {
+  width: 60%;
+  margin: auto;
+}
+
+aside h4 {
+  padding-top: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+aside img {
+  border-radius: 5px;
+}
+
+.asidelist {
+  margin: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+}
+
+.asidelist li {
+  font-size: 14px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: center;
+}
+
+.related {
+  text-align: center;
+}
+
+footer {
+  font-size: 0.75rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1400px) {
+  h2 {
+    font-size: 16px;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  ul.asidelist {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .asidelist li {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 560px) {
+  .asidelist li {
+    font-size: 11px;
+  }
+}
