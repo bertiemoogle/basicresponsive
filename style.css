@@ -54,6 +54,10 @@ a:hover {
   border-radius: 90px;
 }
 
+.laura {
+  font-weight: 800;
+}
+
 article {
   width: 60%;
   margin: auto;
@@ -93,7 +97,7 @@ aside img {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  gap: 30px;
+  gap: 40px;
   padding: 0;
 }
 
